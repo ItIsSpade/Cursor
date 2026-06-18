@@ -1,0 +1,21 @@
+
+> desked-store@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+ ⚠ Port 3001 is in use, trying 3002 instead.
+ ⚠ Port 3002 is in use, trying 3003 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3003
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 19.4s (2619 modules)
+ GET / 200 in 20865ms
+ ✓ Compiled in 1781ms (1280 modules)
+ ○ Compiling /products ...
+ ✓ Compiled /products in 2.5s (2603 modules)
+ ⨯ upstream image response failed for https://images.unsplash.com/photo-1586816879360-004f5b0c51e3?auto=format&fit=crop&q=80&w=1000 404
+ ○ Compiling /products/[id] ...
+ ✓ Compiled /products/[id] in 736ms (2623 modules)

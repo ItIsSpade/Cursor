@@ -9,18 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#08080C", // Deep void background
-        surface: "#12121A",
-        border: "#2A2A35",
-        foreground: "#F4F4F5",
-        muted: "#A1A1AA",
+        background: "#FAFAFA", // Very light, clean background
+        surface: "#FFFFFF",
+        border: "#E4E4E7",
+        foreground: "#18181B", // Dark text for readability
+        muted: "#71717A",
         accent: {
-          DEFAULT: "#00F0FF", // Cyan accent
-          hover: "#00C2CF",
+          DEFAULT: "#8B5CF6", // Vibrant purple accent
+          hover: "#7C3AED",
         },
         secondary: {
-          DEFAULT: "#FF0055", // Neon pink secondary accent
-          hover: "#CC0044",
+          DEFAULT: "#10B981", // Vibrant green accent
+          hover: "#059669",
         }
       },
       fontFamily: {
@@ -28,11 +28,11 @@ const config: Config = {
         body: ["var(--font-manrope)"],
       },
       backgroundImage: {
-        'glass': 'linear-gradient(to bottom right, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01))',
+        'glass': 'linear-gradient(135deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.2) 100%)',
       },
       boxShadow: {
-        'glass': '0 4px 30px rgba(0, 0, 0, 0.5)',
-        'neon-accent': '0 0 20px rgba(0, 240, 255, 0.4)',
+        'glass': '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
+        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
       }
     },
   },
